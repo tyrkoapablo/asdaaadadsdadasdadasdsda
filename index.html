@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epil Zone - Depilacja Elektrostatyczna | Profesjonalne Usługi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ANIMATED BACKGROUND -->
+    <div class="animated-bg">
+        <div class="bg-grid"></div>
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+    </div>
+
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- GLASSMORPHISM NAVBAR -->
+    <nav class="glass-navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" style="text-decoration: none;">
+                <img src="logo.png" alt="Epil Zone" style="height: 110px; object-fit: contain;">
+            </a>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-links" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Zabiegi</a></li>
+                <li><a href="#process" class="nav-link">Proces</a></li>
+                <li><a href="#before-after" class="nav-link">Efekty</a></li>
+                <li><a href="#reviews" class="nav-link">Opinie</a></li>
+                <li><a href="#pricing" class="nav-link">Cennik</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#contact" class="nav-link btn-contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MODERN HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="badge" data-aos="fade-down">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Chełm, Lubelskie</span>
+                </div>
+                
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                    Mobilna trwała depilacja/Elektroepilacja<br>
+                    <span class="gradient-text"> w Chełmie i okolicach</span>
+                </h1>
+                
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Działamy skutecznie na włosy każdego koloru – ciemne, jasne, rude, a nawet siwe. Gwarantujemy trwały efekt przy realizacji pełnego planu zabiegowego. Zrób pierwszy krok w stronę gładkiej skóry – umów się na konsultację i rozpocznij swoją drogę do komfortu i pewności siebie.
+                </p>
+                
+                <div class="hero-stats" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Zadowolenia</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">250+</div>
+                        <div class="stat-label">Klientów</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">2 lata</div>
+                        <div class="stat-label">Doświadczenia</div>
+                    </div>
+                </div>
+                
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#contact" class="btn-primary">
+                        <span>Umów konsultację</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#services" class="btn-secondary">
+                        <span>Zobacz zabiegi</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-right" data-aos="fade-left" data-aos-delay="200">
+                <div class="hero-image-wrapper">
+                    <div class="image-glow"></div>
+                    <img src="przeor2.png" alt="Viktoria Przeor" class="hero-image">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-certificate"></i>
+                        <span>Certyfikat FDA</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-star"></i>
+                        <span>5.0 Ocena</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- DLA KOGO JEST NASZA USŁUGA -->
+    <section id="for-who" class="for-who-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Dla kogo?</span>
+                <h2 class="section-title">Dla kogo jest nasza usługa?</h2>
+            </div>
+            
+            <div class="for-who-grid">
+                <div class="for-who-card" data-aos="fade-right">
+                    <div class="for-who-icon">
+                        <i class="fas fa-venus"></i>
+                    </div>
+                    <h3>Dla kobiet</h3>
+                    <p>Niezależnie od strefy, pomożemy ci trwale pozbyć się niechcianych włosów.</p>
+                </div>
+                
+                <div class="for-who-card" data-aos="fade-left" data-aos-delay="100">
+                    <div class="for-who-icon">
+                        <i class="fas fa-mars"></i>
+                    </div>
+                    <h3>Dla mężczyzn</h3>
+                    <p>Skutecznie usuwamy włosy zarówno na twarzy, jak i na ciele, uwzględniając specyfikę męskiej skóry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES BENTO GRID -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Nasze usługi</span>
+                <h2 class="section-title">Profesjonalne zabiegi<br>elektroepilacji</h2>
+                <p class="section-description">Oferujemy pełen zakres zabiegów elektroepilacji dla wszystkich stref ciała. Każdy zabieg jest indywidualnie dopasowany do Twoich potrzeb.</p>
+            </div>
+            
+            <div class="bento-grid">
+                <div class="bento-card large" data-aos="zoom-in">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-face-smile"></i>
+                        </div>
+                        <h3>Elektroepilacja twarzy</h3>
+                        <p>Precyzyjne usuwanie włosów z okolicy brody, wąsów, policzków i szyi. Idealne rozwiązanie dla osób z hirsutyzem.</p>
+                        <div class="card-footer">
+                            <span class="price">od 100 zł</span>
+                            <span class="duration">30-90 min</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bento-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-hand-sparkles"></i>
+                        </div>
+                        <h3>Ręce i nogi</h3>
+                        <p>Trwałe usuwanie owłosienia z rąk, przedramion, ud i łydek.</p>
+                        <div class="card-footer">
+                            <span class="price">od 150 zł</span>
+                            <span class="duration">30-120 min</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bento-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-person"></i>
+                        </div>
+                        <h3>Pachy</h3>
+                        <p>Raz na zawsze pozbądź się problemu z owłosieniem w pachach.</p>
+                        <div class="card-footer">
+                            <span class="price">od 100 zł</span>
+                            <span class="duration">15-45 min</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bento-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-venus"></i>
+                        </div>
+                        <h3>Strefa bikini</h3>
+                        <p>Klasyczne lub brazylijskie - całkowite usunięcie owłosienia intymnego.</p>
+                        <div class="card-footer">
+                            <span class="price">od 150 zł</span>
+                            <span class="duration">30-90 min</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bento-card tall" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Konsultacja</h3>
+                        <p>Konsultacja z oceną skóry i planem zabiegów.</p>
+                        <div class="card-footer">
+                            <span class="price">50 zł</span>
+                            <span class="duration">15 min</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS HORIZONTAL SCROLL -->
+    <section id="process" class="process">
+        <div class="container-fluid">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Jak to działa?</span>
+                <h2 class="section-title">Twój proces do<br><span class="gradient-text">idealnej skóry</span></h2>
+            </div>
+            
+            <div class="process-scroll">
+                <div class="process-card" data-aos="fade-right">
+                    <div class="process-number">01</div>
+                    <div class="process-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Konsultacja</h3>
+                    <p>Podczas spotkania analizujemy Twoją skórę, typ włosów i ustalamy plan zabiegów. Omówimy wszystkie szczegóły i odpowiemy na pytania.</p>
+                </div>
+                
+                <div class="process-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div class="process-card" data-aos="fade-right" data-aos-delay="100">
+                    <div class="process-number">02</div>
+                    <div class="process-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>Przygotowanie</h3>
+                    <p>Dezynfekujemy obszar i przygotowujemy sterylny sprzęt. Zadbamy o Twój komfort - w razie potrzeby zastosujemy znieczulenie miejscowe.</p>
+                </div>
+                
+                <div class="process-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div class="process-card" data-aos="fade-right" data-aos-delay="200">
+                    <div class="process-number">03</div>
+                    <div class="process-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Zabieg</h3>
+                    <p>Precyzyjnie niszczymy każdy korzenek włosa impulsem elektrycznym. Proces jest kontrolowany i bezpieczny dla Twojej skóry.</p>
+                </div>
+                
+                <div class="process-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div class="process-card" data-aos="fade-right" data-aos-delay="300">
+                    <div class="process-number">04</div>
+                    <div class="process-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Pielęgnacja</h3>
+                    <p>Stosujemy kojące preparaty i przekazujemy wskazania do pielęgnacji domowej. Otrzymujesz pełne wsparcie między sesjami.</p>
+                </div>
+                
+                <div class="process-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div class="process-card" data-aos="fade-right" data-aos-delay="400">
+                    <div class="process-number">05</div>
+                    <div class="process-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Efekt permanentny</h3>
+                    <p>Po serii zabiegów osiągasz trwały efekt gładkiej skóry. Włosy nie odrastają!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BEFORE/AFTER SLIDER - Przed i po zabiegu -->
+    <section id="before-after" class="before-after-section">
+        <div class="container">
+            <h2 class="section-title">Efekty naszej pracy</h2>
+            <p class="section-subtitle">Galeria przed i po zabiegu</p>
+            <div class="before-after-gallery">
+                <div class="before-after-container" data-aos="zoom-in">
+                    <div class="before-after-slider">
+                        <img src="przedpo1.png" alt="Efekty zabiegu 1">
+                    </div>
+                </div>
+                <div class="before-after-container" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="before-after-slider">
+                        <img src="przedpo2.png" alt="Efekty zabiegu 2">
+                    </div>
+                </div>
+                <div class="before-after-container" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="before-after-slider">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/D4AF37?text=Przed+%2F+Po+-+Pachy" alt="Efekty zabiegu 3">
+                        <div class="result-badge">Pachy - 12 miesięcy</div>
+                    </div>
+                </div>
+                <div class="before-after-container" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="before-after-slider">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/D4AF37?text=Przed+%2F+Po+-+Bikini" alt="Efekty zabiegu 4">
+                        <div class="result-badge">Bikini - 18 miesięcy</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="results-info">
+                <h3>Gwarantujemy trwałe efekty</h3>
+                <p>Wszystkie prezentowane zdjęcia pochodzą z naszego gabinetu. Efekty są trwałe i potwierdzone wieloletnimi obserwacjami. Elektroepilacja to jedyna metoda permanentnego usuwania włosów zatwierdzona przez FDA.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- OPINIE KLIENTÓW -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">Co mówią nasi klienci?</h2>
+            <p class="section-intro">Twoje zadowolenie jest naszym największym sukcesem. Przeczytaj, co piszą o nas osoby, które zdecydowały się na elektroepilację w Epil Zone.</p>
+            
+            <div class="reviews-grid">
+                <div class="review-card" data-aos="fade-up">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Jestem bardzo zadowolona z efektów zabiegu. Zabiegi  jest nie bolesny. Obsługa mega przemiła i bardzo profesjonalna. Polecam całym sercem każdej dziewczynie."</p>
+                    <div class="review-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h4>Anna K.</h4>
+                            <p>Klientka od 2 lat</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Polecam, zabiegi wykonywane bardzo profesjonalnie, bezboleśnie i z największą dokładnością. Wiktoria zawsze zachowuje zasady sterylności, tazke zabieg jest bezpieczny w komfortowej atmosferze. 🙂"</p>
+                    <div class="review-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h4>Magdalena W.</h4>
+                            <p>Klientka od roku</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Elektroepilacja naprawdę pozytywnie mnie zaskoczyła. Sam zabieg jest dokładny, czuć lekkie ukłucia, ale da się spokojnie wytrzymać. Pani, która go wykonuje, jest bardzo delikatna i wszystko tłumaczy na bieżąco, więc od razu człowiek czuje się swobodniej. Atmosfera jest spokojna, profesjonalna i bez pośpiechu. Po kilku wizytach widzę, że włoski naprawdę przestają odrastać, więc dla mnie efekty są jak najbardziej tego warte."</p>
+                    <div class="review-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h4>Karolina S.</h4>
+                            <p>Klientka od 3 lat</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Byłam dzisiaj pierwszy raz na Elektroepilacji i muszę potwierdzić wszystkie pozytywne opinie klientek. Zabieg okazał się prawie bezbolesny — odczuwalne było jedynie delikatne ukłucie. Po procedurze pojawiło się minimalne zaczerwienienie, które zniknęło po 2–3 godzinach, a później skóra wyglądała idealnie.
+Profesjonalna obsługa, świetna atmosfera i dokładne wyjaśnienie każdego etapu zabiegu sprawiły, że czułam się bardzo komfortowo. Zdecydowanie polecam i na pewno wrócę!🤍"</p>
+                    <div class="review-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h4>Joanna P.</h4>
+                            <p>Klientka od 6 miesięcy</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Jako osoba z wrażliwą skórą obawiałam się zabiegów. Viktoria rozwiane wszystkie moje wątpliwości. Zabieg przebiegł bez komplikacji, a efekty są fantastyczne!"</p>
+                    <div class="review-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h4>Paulina M.</h4>
+                            <p>Klientka od 4 miesięcy</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Elektroepilacja w Epil Zone to najlepsza inwestycja w siebie. Koniec z codziennym goleniem! Czuję się pewniej i komfortowo. Dziękuję!"</p>
+                    <div class="review-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h4>Beata L.</h4>
+                            <p>Klientka od 8 miesięcy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCJA O USŁUDZE - zdjęcie centralnie, cechy wokół -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Czym jest elektroepilacja?</h2>
+            <p class="section-intro">Elektroepilacja to jedyna metoda permanentnego usuwania włosów zatwierdzona przez FDA (Food and Drug Administration). W przeciwieństwie do depilacji laserowej czy IPL, elektroepilacja działa na włosy każdego koloru - od ciemnych po zupełnie siwe - i każdego typu skóry. To precyzyjna metoda, która niszczy korzeń włosa za pomocą kontrolowanego impulsu elektrycznego.</p>
+            <div class="about-layout">
+                <div class="features-left">
+                    <div class="feature-box">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Bezpieczeństwo na najwyższym poziomie</h4>
+                        <p>Certyfikowany sprzęt i sterylne warunki.</p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="fas fa-user-tie"></i>
+                        <h4>Profesjonalna obsługa</h4>
+                        <p>Doświadczony zespół, który zadba o Twój komfort.</p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="fas fa-spa"></i>
+                        <h4>Skuteczna i bezbolesna epilacja</h4>
+                        <p>Nowoczesna technologia = trwałe efekty bez bólu.</p>
+                    </div>
+                </div>
+                
+                <div class="about-center-image">
+                    <img src="przeor.png" alt="Viktoria Przeor">
+                </div>
+                
+                <div class="features-right">
+                    <div class="feature-box">
+                        <i class="fas fa-heart"></i>
+                        <h4>Indywidualne podejście</h4>
+                        <p>Zabiegi dopasowane do Twojej skóry i potrzeb.</p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="fas fa-home"></i>
+                        <h4>Komfortowa atmosfera</h4>
+                        <p>Przytulne wnętrze i pełen relaks podczas wizyty.</p>
+                    </div>
+                    <div class="feature-box">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>Wygodna rezerwacja</h4>
+                        <p>Elastyczne terminy, szybka rezerwacja online lub telefonicznie.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CENNIK - zdjęcie po lewej, cennik po prawej -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">Cennik Usług</h2>
+            <div class="pricing-layout">
+                <div class="pricing-image">
+                    <img src="cennik.png" alt="Elektroepilacja">
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-header">
+                        <div class="pricing-item-big">
+                            <h3>Konsultacja / Pierwszy zabieg</h3>
+                            <p class="price">od 50 zł</p>
+                        </div>
+                        <div class="pricing-item-big">
+                            <h3>Elektroepilacja</h3>
+                            <p class="price">od 100 zł</p>
+                        </div>
+                    </div>
+                    
+                    <table class="pricing-table">
+                        <tr>
+                            <td>30 minut</td>
+                            <td>130 zł</td>
+                        </tr>
+                        <tr>
+                            <td>1 godzina</td>
+                            <td>230 zł</td>
+                        </tr>
+                        <tr>
+                            <td>1,5 godziny</td>
+                            <td>330 zł</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST SECTION - Liczby, które budują zaufanie -->
+    <section id="trust" class="trust-section">
+        <div class="container">
+            <h2 class="section-title">Zaufanie Budowane Doświadczeniem</h2>
+            <div class="trust-grid">
+                <div class="trust-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="trust-number" data-count="2">0</div>
+                    <p class="trust-label">Lata doświadczenia</p>
+                </div>
+                <div class="trust-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="trust-number" data-count="250+">0</div>
+                    <p class="trust-label">Zadowolonych klientów</p>
+                </div>
+                <div class="trust-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="trust-number" data-count="98">0</div>
+                    <p class="trust-label">% pozytywnych opinii</p>
+                </div>
+                <div class="trust-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="trust-number" data-count="1">0</div>
+                    <p class="trust-label">Specjalista</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG / PORADY -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2 class="section-title">Porady i artykuły eksperckie</h2>
+            <p class="section-intro">Poznaj sekrety pielęgnacji skóry i dowiedz się więcej o elektroepilacji. Nasze porady pomogą Ci przygotować się do zabiegu i zadbać o skórę po nim.</p>
+            
+            <div class="blog-grid">
+                <article class="blog-card" data-aos="fade-up">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a1a/D4AF37?text=Przygotowanie" alt="Przygotowanie do zabiegu">
+                        <div class="blog-category">Poradnik</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Jak przygotować się do elektroepilacji?</h3>
+                        <p>Dowiedz się, co zrobić przed pierwszym zabiegiem, aby osiągnąć najlepsze rezultaty. Poznaj podstawowe zasady przygotowania skóry.</p>
+                        <a href="artykul-przygotowanie.html" class="blog-link">Czytaj więcej <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a1a/D4AF37?text=Pielegnacja" alt="Pielęgnacja po zabiegu">
+                        <div class="blog-category">Pielęgnacja</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Pielęgnacja skóry po elektroepilacji</h3>
+                        <p>Prawidłowa pielęgnacja pozabiegowa to klucz do sukcesu. Zobacz, jakie kroki podjąć, aby skóra była gładka i zdrowa.</p>
+                        <a href="artykul-pielegnacja.html" class="blog-link">Czytaj więcej <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a1a/D4AF37?text=Laser+vs+Elektro" alt="Laser vs elektroepilacja">
+                        <div class="blog-category">Porównanie</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Elektroepilacja vs depilacja laserowa</h3>
+                        <p>Które rozwiązanie jest lepsze? Porównujemy obie metody i wyjaśniamy, dlaczego elektroepilacja jest najbardziej skuteczna.</p>
+                        <a href="artykul-laser-vs-elektro.html" class="blog-link">Czytaj więcej <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- NASI SPECJALIŚCI -->
+    <section id="specialists" class="specialists-section">
+        <div class="container">
+            <h2 class="section-title">Nasi specjaliści</h2>
+            <div class="specialists-grid">
+                <div class="specialist-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="specialist-photo">
+                        <img src="przeor.png" alt="Viktoria Przeor">
+                    </div>
+                    <h4>Viktoria Przeor</h4>
+                    <p class="specialist-title">Specjalistka Elektroepilacji</p>
+                    <p class="specialist-bio">Doświadczenie: 2 lata</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Często Zadawane Pytania</h2>
+            <p class="section-subtitle">Znajdź odpowiedzi na swoje pytania</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="1">
+                        <span>Ile trwa jeden zabieg elektroepilacji?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-1">
+                        <p>Czas zabiegu zależy od wielkości obszaru i gęstości włosów. Zazwyczaj od 15 minut do 4 godzin. Podczas pierwszej konsultacji ustalamy dokładny harmonogram.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="2">
+                        <span>Czy elektroepilacja boli?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-2">
+                        <p>Elektroepilacja jest minimálnie bolesna. Klienci opisują to jako lekkie ukłucia. Używamy nowoczesnego sprzętu i technik, które minimalizują dyskomfort. Po zabiegu skóra może być lekko zaczerwieniona, co szybko mija.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="3">
+                        <span>Ile zabiegów potrzeba, aby pozbyć się włosów na zawsze?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-3">
+                        <p>Liczba zabiegów zależy od typu i koloru włosów, gęstości i historii medycznej. Średnio potrzeba 6-12 wizyt.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="4">
+                        <span>Czy mogę wrócić do normalnych czynności po zabiegu?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-4">
+                        <p>Tak! Po zabiegu możesz natychmiast powrócić do codziennych czynności. Jedynym ograniczeniem jest unikanie słońca i basenu przez 24-48 godzin. Podamy Ci szczegółowe instrukcje pielęgnacji.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="5">
+                        <span>Czy elektroepilacja jest bezpieczna?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-5">
+                        <p>Tak, elektroepilacja jest bezpieczną i FDA-zatwierdzoną metodą. Nasz sprzęt jest certyfikowany, a wszystkie procedury przeprowadzane są przez wysoko wyszkolonych specjalistów. Gwarantujemy sterylne warunki i profesjonalną obsługę.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="6">
+                        <span>Jaka jest różnica między elektroepilacją a laserową depilacją?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-6">
+                        <p>Elektroepilacja działa na każdym typie włosów (ciemne, jasne, rude, siwe), podczas gdy laser jest efektywny głównie dla włosów ciemnych. Elektroepilacja gwarantuje stały efekt, podczas gdy laser wymaga czasem retuszu.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="7">
+                        <span>Czy elektroepilacja działa na jasne i siwe włosy?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-7">
+                        <p>Tak! To największa zaleta elektroepilacji. W przeciwieństwie do lasera, który wymaga melaniny (pigmentu), elektroepilacja niszczy korzeń włosa niezależnie od jego koloru. Działa na włosy jasne, rude, siwe i nawet białe.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="8">
+                        <span>Czy są jakieś przeciwwskazania do zabiegu?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-8">
+                        <p>Tak, istnieją pewne przeciwwskazania: ciąża, rozrusznik serca, epilepsja, świeża opalenizna, aktywne infekcje skóry. Podczas konsultacji omówimy Twoją historię medyczną i zdecydujemy, czy zabieg jest dla Ciebie bezpieczny.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="9">
+                        <span>Ile kosztuje cały cykl zabiegów?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-9">
+                        <p>Koszt zależy od wielkości obszaru i liczby włosów. Średnio potrzeba 6-12 sesji. Podczas konsultacji przygotujemy dla Ciebie indywidualną wycenę i plan zabiegów. Oferujemy także pakiety ze zniżką.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="10">
+                        <span>Jak często trzeba powtarzać zabiegi?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-10">
+                        <p>Na początku zabiegi wykonuje się co 4-6 tygodni, następnie co 6-8 tygodni. Z czasem przerwy wydłużają się. Po zakończeniu cyklu zabiegów włosy są usunięte na stałe i nie wymaga się dalszych wizyt.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="11">
+                        <span>Czy elektroepilacja jest odpowiednia dla mężczyzn?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-11">
+                        <p>Zdecydowanie tak! Wielu mężczyzn korzysta z elektroepilacji, szczególnie w strefach takich jak broda, plecy, klatka piersiowa czy szyja. Zabieg jest równie skuteczny niezależnie od płci.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="12">
+                        <span>Czy mogę opalać się przed i po zabiegu?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-12">
+                        <p>Zalecamy unikanie intensywnego opalania przez 1-2 tygodnie przed i po zabiegu. Świeża opalenizna może zwiększyć wrażliwość skóry. Zawsze stosuj krem z filtrem SPF na obszarach poddanych zabiegowi.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" data-faq="13">
+                        <span>Co mogę zrobić, aby zabieg był mniej bolesny?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer" id="faq-13">
+                        <p>Zabieg jest zazwyczaj dobrze tolerowany. Możemy zastosować żel znieczulający miejscowo. Zalecamy też unikanie kawy przed zabiegiem i wybranie terminu poza okresem menstruacji, gdy próg bólu jest niższy.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Skontaktuj się z nami</h2>
+            <h3 class="contact-subtitle">Masz pytania? Jesteśmy tu dla Ciebie!</h3>
+            <p class="contact-text">Zadzwoń, napisz lub odwiedź nas – wspólnie znajdziemy najlepsze rozwiązanie dla Twojej skóry.</p>
+            
+            <!-- QR Code Instagram -->
+            <div class="instagram-qr" data-aos="fade-up">
+                <img src="instagram.png" alt="Instagram QR Code" class="qr-code">
+                <p class="qr-text">Zeskanuj i śledź nas na Instagramie!</p>
+            </div>
+            
+            <div class="contact-cards">
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="0">
+                    <i class="fas fa-phone"></i>
+                    <h4>Telefon</h4>
+                    <p><a href="tel:+48504714125">+48 504 714 125</a></p>
+                </div>
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p><a href="mailto:kontakt@epilzone.pl">kontakt@epilzone.pl</a></p>
+                </div>
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Adres</h4>
+                    <p>ul. Przykładowa 123<br>22-100 Chełm</p>
+                </div>
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-clock"></i>
+                    <h4>Twoje potrzeby są dla nas ważne każdego dnia, dlatego czekamy na Ciebie codziennie od 9:00 do 20:00</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Epil Zone" style="height: 180px; object-fit: contain;">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Epil Zone - Depilacja Elektrostatyczna. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/+48504714125?text=Cześć!%20Chciałabym%20umówić%20się%20na%20konsultację." class="whatsapp-btn" title="Kontakt przez WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" id="backToTop" title="Wróć na górę">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
