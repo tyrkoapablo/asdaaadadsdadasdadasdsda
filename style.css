@@ -1806,17 +1806,6 @@ body {
     .before-after-gallery {
         grid-template-columns: 1fr;
     }
-    .gallery-slider-wrapper {
-        padding: 0 50px;
-    }
-    .slider-item {
-        height: 400px;
-    }
-    .slider-btn {
-        width: 45px;
-        height: 45px;
-        font-size: 1.2rem;
-    }
     .reviews-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1863,31 +1852,6 @@ body {
 @media (max-width: 640px) {
     .section-title {
         font-size: 2.2rem;
-    }
-    .gallery-slider-wrapper {
-        padding: 0 45px;
-    }
-    .slider-item {
-        height: 300px;
-    }
-    .slider-btn {
-        width: 40px;
-        height: 40px;
-        font-size: 1rem;
-    }
-    .prev-btn {
-        left: 5px;
-    }
-    .next-btn {
-        right: 5px;
-    }
-    .slider-dots {
-        gap: 8px;
-        margin-top: 1rem;
-    }
-    .dot {
-        width: 10px;
-        height: 10px;
     }
     .reviews-grid {
         grid-template-columns: 1fr;
